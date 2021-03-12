@@ -1,0 +1,83 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #5C6F4E;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.container {
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.logo {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #FFFFFF;
+}
+
+
+.list {
+    position: absolute;
+    visibility: hidden;
+    width: 265px;
+    height: 207px;
+    right: 400px;
+    top: 79px;
+    background-color: #6F7397;
+}
+
+
+.secondary-list {
+    width: 265px;
+    height: 187px;
+    background-color: #7B89BA;
+    margin-top: 11px;
+    margin-bottom: 9px;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    padding-left: 10px;
+
+}
+
+
+.secondary-list a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+}
+
+.secondary-list li {
+    margin-bottom: 32px;
+}
+
+
+.secondary-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+.drop-down-list:hover .list {
+    visibility: visible;
+    opacity: 1;
+}
